@@ -6,8 +6,6 @@ import Gauss_method as f_1
 import Sweep_method as f_2
 import Simple_iteration_method as f_3
 
-# import Simple_iteration_method as f_3
-
 l = 'yes'
 
 def get_B(A, X):
