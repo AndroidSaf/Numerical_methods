@@ -1,5 +1,4 @@
 import numpy as np
-import random as rd
 import pandas as pd
 import Gauss_method as file_1
 import Sweep_method as file_2
@@ -24,7 +23,6 @@ data = {'slay dimension': pd.Series(np.zeros(5),
                           index=['1', '2',
                                  '3', '4', '5'])}
 df = pd.DataFrame(data)
-
 
 f_name = {
     '1': 'Gauss method',
